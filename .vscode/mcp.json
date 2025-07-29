@@ -1,0 +1,28 @@
+{
+	"inputs": [],
+	"servers": {
+		"leetcode": {
+			"command": "/workspaces/leetcode-mcp-go/leetcode-mcp-server"
+		},
+		"apple-developer-docs": {
+			"command": "npx",
+			"args": [
+				"apple-developer-docs-mcp"
+			]
+		},
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest"
+			]
+    	},
+		 "github": {
+			"type": "http",
+			"url": "https://api.githubcopilot.com/mcp/"
+		},
+		"microsoft.docs.mcp": {
+			"type": "http",
+			"url": "https://learn.microsoft.com/api/mcp"
+		}
+	}
+}
